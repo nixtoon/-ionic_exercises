@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>este es el login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <br><br>
+  <ion-input label="Nombre" [ngModel]="user.nombre" label-placement="floating" fill="outline" placeholder="Enter text"></ion-input>
+  <br>
+  <ion-input label="Password" [ngModel]="user.pass" label-placement="floating" fill="outline" placeholder="Enter text"></ion-input>
+  <br><br>
+  <ion-button expand="block" (click)="login()" >Ingresar</ion-button> 
+
+</ion-content>
